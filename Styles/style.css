@@ -1,0 +1,243 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+header {
+  display: flex;
+  padding: 20px 0;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  background: #fff;
+  width: 100%;
+  padding: 20px 25px;
+}
+header .left, header section#collaboration .right, section#collaboration header .right {
+  display: flex;
+  align-items: center;
+}
+header .left .image_container, header section#collaboration .right .image_container, section#collaboration header .right .image_container {
+  width: 188px;
+  height: 24px;
+  margin-right: 20px;
+}
+header .left .image_container h1 a img, header section#collaboration .right .image_container h1 a img, section#collaboration header .right .image_container h1 a img {
+  width: 100%;
+  display: block;
+}
+header .left ul, header section#collaboration .right ul, section#collaboration header .right ul {
+  display: flex;
+  align-items: center;
+  width: 140px;
+  height: 24px;
+  gap: 8px;
+}
+header .left ul li a img, header section#collaboration .right ul li a img, section#collaboration header .right ul li a img {
+  width: 100%;
+  display: block;
+}
+header .right .button-1, header .right .button-2 {
+  text-decoration: none;
+  font-size: 14px;
+  border: 1px solid grey;
+  padding: 10px;
+  color: blue;
+  font-weight: 600;
+}
+header .right .button-2 {
+  color: #fff;
+  background: #1a73e8;
+  border-radius: 5px;
+}
+
+section#main {
+  width: 100%;
+  display: flex;
+  background: #f6f6f6;
+}
+section#main .left, section#main section#collaboration .right, section#collaboration section#main .right {
+  width: 50%;
+  margin-top: 30px;
+}
+section#main .left .image_container, section#main section#collaboration .right .image_container, section#collaboration section#main .right .image_container {
+  width: 760px;
+  height: 410px;
+}
+section#main .left .image_container img, section#main section#collaboration .right .image_container img, section#collaboration section#main .right .image_container img {
+  width: 100%;
+  height: 100%;
+}
+section#main .right {
+  margin-top: 30px;
+  width: 50%;
+  padding: 80px 80px;
+}
+section#main .right .top {
+  display: flex;
+}
+section#main .right .top .right_side span {
+  font-size: 48px;
+  margin-left: 5px;
+}
+section#main .right .bottom p.one {
+  color: #545454;
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+section#main .right .bottom p.two {
+  color: #545454;
+  font-size: 14px;
+  width: 459px;
+  margin-bottom: 30px;
+}
+section#main .right .bottom a.button {
+  color: #fff;
+  background: #1a73e8;
+  padding: 10px;
+  font-weight: 600;
+  border-radius: 5px;
+}
+
+section#programing_disign {
+  width: 100%;
+  display: flex;
+  padding: 80px 0px;
+}
+section#programing_disign .left, section#programing_disign section#collaboration .right, section#collaboration section#programing_disign .right {
+  width: 50%;
+  padding: 20px 80px;
+  margin-left: 80px;
+}
+section#programing_disign .left h2, section#programing_disign section#collaboration .right h2, section#collaboration section#programing_disign .right h2 {
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+section#programing_disign .left p, section#programing_disign section#collaboration .right p, section#collaboration section#programing_disign .right p {
+  font-size: 17px;
+  width: 443px;
+  color: #545454;
+}
+section#programing_disign .left p a, section#programing_disign section#collaboration .right p a, section#collaboration section#programing_disign .right p a {
+  color: #1a73e8;
+}
+section#programing_disign .right {
+  width: 50%;
+}
+section#programing_disign .right .image_container {
+  width: 557px;
+}
+section#programing_disign .right .image_container img {
+  width: 100%;
+}
+
+section#content {
+  background: #f6f6f6;
+  display: flex;
+  width: 100%;
+  padding: 80px 0px;
+}
+section#content .left, section#content section#collaboration .right, section#collaboration section#content .right {
+  padding: 0px 80px;
+  width: 50%;
+  margin-left: 80px;
+}
+section#content .right {
+  margin-right: 80px;
+  padding: 0px 70px;
+  width: 50%;
+}
+section#content .right h2 {
+  font-size: 37px;
+  margin-bottom: 10px;
+}
+section#content .right p {
+  font-size: 18px;
+  color: #545454;
+}
+
+section#collaboration {
+  display: flex;
+  margin: 0px 160px;
+  padding: 80px 0px 30px;
+}
+section#collaboration .left, section#collaboration .right {
+  padding: 0px 62px 50px 0px;
+}
+section#collaboration .left h4, section#collaboration .right h4 {
+  font-size: 22px;
+  color: #202124;
+  margin-bottom: 20px;
+}
+section#collaboration .left p, section#collaboration .right p {
+  font-size: 14px;
+  color: #545454;
+}
+section#collaboration .middle {
+  padding: 0px 62px 50px 0px;
+}
+section#collaboration .middle h4 {
+  font-size: 22px;
+  color: #202124;
+  margin-bottom: 20px;
+}
+section#collaboration .middle p {
+  font-size: 14px;
+  color: #545454;
+}
+section#collaboration .middle p a {
+  color: #1a73e8;
+}
+section#department {
+  width: 100%;
+  display: flex;
+}
+section#department .left, section#department section#collaboration .right, section#collaboration section#department .right {
+  height: 570.6px;
+  width: 50%;
+}
+section#department .left .image_container, section#department section#collaboration .right .image_container, section#collaboration section#department .right .image_container {
+  width: 760px;
+  height: 100%;
+}
+section#department .left .image_container img, section#department section#collaboration .right .image_container img, section#collaboration section#department .right .image_container img {
+  width: 100%;
+  height: 100%;
+}
+section#department .right {
+  background: #ff5252;
+  padding: 80px 134px;
+  width: 50%;
+}
+section#department .right p.one {
+  font-size: 28px;
+  color: #fff;
+}
+section#department .right p.two {
+  margin-top: 30px;
+  color: #fff;
+  font-size: 16px;
+}
+section#department .right p.three {
+  margin-top: 10px;
+  color: #fff;
+  font-size: 16px;
+}
+section#department .right a.one {
+  display: block;
+  margin-top: 30px;
+  color: #fff;
+}
+section#department .right a.two {
+  display: block;
+  margin-top: 10px;
+  color: #fff;
+}/*# sourceMappingURL=style.css.map */
