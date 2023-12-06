@@ -21,27 +21,27 @@ header {
   width: 100%;
   padding: 20px 25px;
 }
-header .left, header section#collaboration .right, section#collaboration header .right {
+header .left, header section#questions .bottom .right, section#questions .bottom header .right, header section#collaboration .right, section#collaboration header .right {
   display: flex;
   align-items: center;
 }
-header .left .image_container, header section#collaboration .right .image_container, section#collaboration header .right .image_container {
+header .left .image_container, header section#questions .bottom .right .image_container, section#questions .bottom header .right .image_container, header section#collaboration .right .image_container, section#collaboration header .right .image_container {
   width: 188px;
   height: 24px;
   margin-right: 20px;
 }
-header .left .image_container h1 a img, header section#collaboration .right .image_container h1 a img, section#collaboration header .right .image_container h1 a img {
+header .left .image_container h1 a img, header section#questions .bottom .right .image_container h1 a img, section#questions .bottom header .right .image_container h1 a img, header section#collaboration .right .image_container h1 a img, section#collaboration header .right .image_container h1 a img {
   width: 100%;
   display: block;
 }
-header .left ul, header section#collaboration .right ul, section#collaboration header .right ul {
+header .left ul, header section#questions .bottom .right ul, section#questions .bottom header .right ul, header section#collaboration .right ul, section#collaboration header .right ul {
   display: flex;
   align-items: center;
   width: 140px;
   height: 24px;
   gap: 8px;
 }
-header .left ul li a img, header section#collaboration .right ul li a img, section#collaboration header .right ul li a img {
+header .left ul li a img, header section#questions .bottom .right ul li a img, section#questions .bottom header .right ul li a img, header section#collaboration .right ul li a img, section#collaboration header .right ul li a img {
   width: 100%;
   display: block;
 }
@@ -64,15 +64,15 @@ section#main {
   display: flex;
   background: #f6f6f6;
 }
-section#main .left, section#main section#collaboration .right, section#collaboration section#main .right {
+section#main .left, section#main section#questions .bottom .right, section#questions .bottom section#main .right, section#main section#collaboration .right, section#collaboration section#main .right {
   width: 50%;
   margin-top: 30px;
 }
-section#main .left .image_container, section#main section#collaboration .right .image_container, section#collaboration section#main .right .image_container {
+section#main .left .image_container, section#main section#questions .bottom .right .image_container, section#questions .bottom section#main .right .image_container, section#main section#collaboration .right .image_container, section#collaboration section#main .right .image_container {
   width: 760px;
   height: 410px;
 }
-section#main .left .image_container img, section#main section#collaboration .right .image_container img, section#collaboration section#main .right .image_container img {
+section#main .left .image_container img, section#main section#questions .bottom .right .image_container img, section#questions .bottom section#main .right .image_container img, section#main section#collaboration .right .image_container img, section#collaboration section#main .right .image_container img {
   width: 100%;
   height: 100%;
 }
@@ -112,21 +112,21 @@ section#programing_disign {
   display: flex;
   padding: 80px 0px;
 }
-section#programing_disign .left, section#programing_disign section#collaboration .right, section#collaboration section#programing_disign .right {
+section#programing_disign .left, section#programing_disign section#questions .bottom .right, section#questions .bottom section#programing_disign .right, section#programing_disign section#collaboration .right, section#collaboration section#programing_disign .right {
   width: 50%;
   padding: 20px 80px;
   margin-left: 80px;
 }
-section#programing_disign .left h2, section#programing_disign section#collaboration .right h2, section#collaboration section#programing_disign .right h2 {
+section#programing_disign .left h2, section#programing_disign section#questions .bottom .right h2, section#questions .bottom section#programing_disign .right h2, section#programing_disign section#collaboration .right h2, section#collaboration section#programing_disign .right h2 {
   font-size: 40px;
   margin-bottom: 10px;
 }
-section#programing_disign .left p, section#programing_disign section#collaboration .right p, section#collaboration section#programing_disign .right p {
+section#programing_disign .left p, section#programing_disign section#questions .bottom .right p, section#questions .bottom section#programing_disign .right p, section#programing_disign section#collaboration .right p, section#collaboration section#programing_disign .right p {
   font-size: 17px;
   width: 443px;
   color: #545454;
 }
-section#programing_disign .left p a, section#programing_disign section#collaboration .right p a, section#collaboration section#programing_disign .right p a {
+section#programing_disign .left p a, section#programing_disign section#questions .bottom .right p a, section#questions .bottom section#programing_disign .right p a, section#programing_disign section#collaboration .right p a, section#collaboration section#programing_disign .right p a {
   color: #1a73e8;
 }
 section#programing_disign .right {
@@ -145,7 +145,7 @@ section#content {
   width: 100%;
   padding: 80px 0px;
 }
-section#content .left, section#content section#collaboration .right, section#collaboration section#content .right {
+section#content .left, section#content section#questions .bottom .right, section#questions .bottom section#content .right, section#content section#collaboration .right, section#collaboration section#content .right {
   padding: 0px 80px;
   width: 50%;
   margin-left: 80px;
@@ -169,15 +169,15 @@ section#collaboration {
   margin: 0px 160px;
   padding: 80px 0px 30px;
 }
-section#collaboration .left, section#collaboration .right {
+section#collaboration .left, section#collaboration section#questions .bottom .right, section#questions .bottom section#collaboration .right, section#collaboration .right {
   padding: 0px 62px 50px 0px;
 }
-section#collaboration .left h4, section#collaboration .right h4 {
+section#collaboration .left h4, section#collaboration section#questions .bottom .right h4, section#questions .bottom section#collaboration .right h4, section#collaboration .right h4 {
   font-size: 22px;
   color: #202124;
   margin-bottom: 20px;
 }
-section#collaboration .left p, section#collaboration .right p {
+section#collaboration .left p, section#collaboration section#questions .bottom .right p, section#questions .bottom section#collaboration .right p, section#collaboration .right p {
   font-size: 14px;
   color: #545454;
 }
@@ -199,23 +199,24 @@ section#collaboration .middle p a {
 section#department {
   width: 100%;
   display: flex;
+  padding: 30px 0px 60px;
 }
-section#department .left, section#department section#collaboration .right, section#collaboration section#department .right {
-  height: 570.6px;
+section#department .left, section#department section#questions .bottom .right, section#questions .bottom section#department .right, section#department section#collaboration .right, section#collaboration section#department .right {
   width: 50%;
+  height: 717.6;
 }
-section#department .left .image_container, section#department section#collaboration .right .image_container, section#collaboration section#department .right .image_container {
+section#department .left .image_container, section#department section#questions .bottom .right .image_container, section#questions .bottom section#department .right .image_container, section#department section#collaboration .right .image_container, section#collaboration section#department .right .image_container {
   width: 760px;
   height: 100%;
 }
-section#department .left .image_container img, section#department section#collaboration .right .image_container img, section#collaboration section#department .right .image_container img {
+section#department .left .image_container img, section#department section#questions .bottom .right .image_container img, section#questions .bottom section#department .right .image_container img, section#department section#collaboration .right .image_container img, section#collaboration section#department .right .image_container img {
   width: 100%;
   height: 100%;
 }
 section#department .right {
+  width: 100%;
   background: #ff5252;
   padding: 80px 134px;
-  width: 50%;
 }
 section#department .right p.one {
   font-size: 28px;
@@ -240,4 +241,117 @@ section#department .right a.two {
   display: block;
   margin-top: 10px;
   color: #fff;
+}
+
+section#questions {
+  margin: 0px 160px;
+  padding: 80px 0px 30px;
+}
+section#questions .top {
+  margin-bottom: 40px;
+}
+section#questions .top h2 {
+  text-align: center;
+  font-size: 38px;
+}
+section#questions .bottom {
+  width: 100%;
+  display: flex;
+}
+section#questions .bottom .left, section#questions .bottom .right {
+  width: 400px;
+  padding: 0px 62px 50px 0px;
+}
+section#questions .bottom .left h4, section#questions .bottom .right h4 {
+  font-size: 22px;
+  color: #202124;
+  margin-bottom: 20px;
+}
+section#questions .bottom .left p, section#questions .bottom .right p {
+  font-size: 14px;
+  color: #545454;
+}
+section#questions .bottom .middle {
+  width: 400px;
+  padding: 0px 62px 50px 0px;
+}
+section#questions .bottom .middle h4 {
+  font-size: 22px;
+  color: #202124;
+  margin-bottom: 20px;
+}
+section#questions .bottom .middle p {
+  font-size: 14px;
+  color: #545454;
+}
+section#questions .bottom .middle p a {
+  color: #1a73e8;
+}
+section#start_today {
+  padding: 70px 0px;
+}
+section#start_today .content {
+  margin: 0px 160px;
+  text-align: center;
+}
+section#start_today .content h2 {
+  font-size: 37px;
+  margin: 30px 0px 20px;
+}
+section#start_today .content h3 {
+  margin-bottom: 40px;
+  font-size: 17px;
+  padding: 0px 266px;
+  font-weight: 300;
+}
+section#start_today .content .button {
+  color: #fff;
+  background: #1a73e8;
+  padding: 10px;
+  font-weight: 600;
+  border-radius: 5px;
+}
+
+footer {
+  padding: 36px 0px;
+  background: #fafafa;
+}
+footer .top {
+  display: flex;
+  align-items: center;
+  margin: 0px 160px;
+  padding-bottom: 30px;
+}
+footer .top .left, footer .top section#collaboration .right, section#collaboration footer .top .right, footer .top section#questions .bottom .right, section#questions .bottom footer .top .right {
+  border-right: 1px solid #545454;
+}
+footer .top .left a, footer .top section#collaboration .right a, section#collaboration footer .top .right a, footer .top section#questions .bottom .right a, section#questions .bottom footer .top .right a {
+  border-bottom: 1px solid #545454;
+  margin-right: 20px;
+}
+footer .top .right ul {
+  display: flex;
+}
+footer .top .right ul li {
+  width: 24px;
+  margin-left: 20px;
+}
+footer .top .right ul li a {
+  width: 100%;
+}
+footer .top .right ul li a img {
+  width: 100%;
+}
+footer .bottom {
+  margin: 0px 160px;
+}
+footer .bottom ul {
+  display: flex;
+}
+footer .bottom ul li {
+  padding-right: 20px;
+  margin-right: 15px;
+}
+footer .bottom ul li a {
+  color: #616161;
 }/*# sourceMappingURL=style.css.map */
